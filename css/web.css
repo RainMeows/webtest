@@ -1,0 +1,81 @@
+.index-nav a:link {
+    color: white;
+}
+
+.index-nav a:visited {
+    color: white;
+}
+
+.index-nav a:hover {
+    color: white;
+}
+
+.index-nav a:active {
+    color: white;
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    background-image: linear-gradient(rgba(35, 36, 36, 0.886), rgb(17, 17, 17));
+}
+
+.index-nav {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+/* .ctt {
+    transition: all 0.6s;
+    opacity: 1;
+} */
+
+.part {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.ctt {
+    width: 250px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.142);
+    padding: 15px 30px;
+    border-radius: 20px;
+    margin-right: 40px;
+    color: rgb(183, 224, 250);
+    transition: all 0.3s;
+}
+
+.ctt img {
+    height: 50px;
+    margin: 5px 10px;
+}
+
+.index {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tt {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.ctt:hover {
+    border: 1px solid rgba(255, 255, 255);
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 20px white);
+}
+
+.shortpic {
+    height: 30px !important;
+    padding-bottom: 20px;
+}
+
+#tobe {
+    width: 300px;
+}
